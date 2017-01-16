@@ -6,15 +6,16 @@
 
 class Image : public Widget
 {
+
 public:
     /**
     * Constructor of a image.
     */
-    Image(Coordinate c, unsigned int w, unsigned int h):Widget{c,w,h}{}
-    virtual ~Image() {}
+    Image(Coordinate c, unsigned int w, unsigned int h):Widget{c,w,h} {}
+    virtual ~Image();
 
     /**
-    * @return Returns "I" as the representation of an image.
+    * @return Returns 'I' as the representation of an image.
     * @throw widget_err if \a c is outside the bounds of the image.
     */
     char getAt(Coordinate c);

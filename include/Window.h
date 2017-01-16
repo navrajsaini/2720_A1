@@ -73,7 +73,6 @@ public:
     */
     virtual void draw() = 0;
 
-//protected:
 private:
     /**
     * Set the height of the window.
@@ -96,7 +95,6 @@ private:
     */
     void setLocation(Coordinate c);
 
-private:
     /**
     * Width of the window
     */
