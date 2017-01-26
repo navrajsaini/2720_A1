@@ -23,7 +23,7 @@ public:
     bool locatedAt(Coordinate c);
 
     /**
-    * Get the representation of the widget at \a c.
+    * Get the representation of the widget at \a c, where \a c is relative to the widget.
     * @throw widget_err if \a c is outside of widget boundry.
     */
     virtual char getAt(Coordinate c) = 0;
