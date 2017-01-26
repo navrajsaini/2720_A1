@@ -9,9 +9,9 @@
 class BaseWindow : public Window
 {
     public:
-        BaseWindow():Window();
+        BaseWindow();
 
-        BaseWindow(int w, int h):Window(w,h);
+        BaseWindow(int w, int h);
 
         virtual ~BaseWindow();
 
