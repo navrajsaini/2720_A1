@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="A1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/A1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="test" />
+				</Compiler>
+				<Linker>
+					<Add option="-lcppunit" />
+					<Add library="libgui.a" />
+					<Add directory="../A1" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/A1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="doxygen/doxyfile" />
+		<Unit filename="include/BaseWindow.h" />
+		<Unit filename="include/Coordinate.h" />
+		<Unit filename="include/Exceptions.h" />
+		<Unit filename="include/Image.h" />
+		<Unit filename="include/Textbox.h" />
+		<Unit filename="include/Widget.h" />
+		<Unit filename="include/Window.h" />
+		<Unit filename="libgui-bugs.a" />
+		<Unit filename="libgui.a" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/TestCoordinate.cpp" />
+		<Unit filename="src/TestExceptions.cpp" />
+		<Unit filename="src/TestImage.cpp" />
+		<Unit filename="src/TestTextbox.cpp" />
+		<Unit filename="src/TestWidget.cpp" />
+		<Unit filename="src/TestWindow.cpp" />
+		<Unit filename="test/TestCoordinate.h" />
+		<Unit filename="test/TestExceptions.h" />
+		<Unit filename="test/TestImage.h" />
+		<Unit filename="test/TestTextbox.h" />
+		<Unit filename="test/TestWidget.h" />
+		<Unit filename="test/TestWindow.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
