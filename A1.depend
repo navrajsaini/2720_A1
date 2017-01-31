@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1485826250 source:/home/sair2720/Lab sht/A1/main.cpp
+	<cppunit/CompilerOutputter.h>
+	<cppunit/extensions/TestFactoryRegistry.h>
+	<cppunit/ui/text/TestRunner.h>
+
+1485826250 source:/home/sair2720/Lab sht/A1/src/TestImage.cpp
+	"TestImage.h"
+	"Exceptions.h"
+
+1485826250 /home/sair2720/Lab sht/A1/test/TestImage.h
+	<cppunit/extensions/HelperMacros.h>
+	"Image.h"
+
+1485826250 /home/sair2720/Lab sht/A1/include/Image.h
+	<Widget.h>
+
+1485826250 /home/sair2720/Lab sht/A1/include/Widget.h
+	"Coordinate.h"
+
+1485826250 /home/sair2720/Lab sht/A1/include/Coordinate.h
+	<iostream>
+
+1485826250 /home/sair2720/Lab sht/A1/include/Exceptions.h
+	<stdexcept>
+
