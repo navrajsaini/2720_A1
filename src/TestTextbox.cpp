@@ -10,7 +10,7 @@ using namespace std;
 
 CPPUNIT_TEST_SUITE_REGISTRATION(TestTextbox);
 
-/*
+/**
     testTextbox: checks to see if getAt func return an error.
     should not be an assert fail because the getAt func should return an widget error
 */
@@ -23,13 +23,3 @@ void TestTextbox::testTextbox()
     Textbox w(c, 1, 1, H);
     CPPUNIT_ASSERT_THROW(w.getAt(a), widget_error);
 }
-/*
-*/
-void TestTextbox::test2()
-{
-
-}
-void TestTextbox::test3()
-{
-}
-

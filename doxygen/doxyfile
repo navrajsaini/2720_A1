@@ -574,7 +574,7 @@ WARN_LOGFILE           = /home/anvik/Desktop/2720Spring2017/asn1spring2017/doxyg
 # directories like "/usr/src/myproject". Separate the files or directories 
 # with spaces.
 
-INPUT                  = ../include \
+INPUT                  = ../test \
                          "../src/TestImage.cpp" \
                          "../include/Textbox.h" \
                          "../include/TestImage.h" \
