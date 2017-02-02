@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-std=c++11" />
 					<Add directory="include" />
 					<Add directory="test" />
 				</Compiler>
@@ -37,7 +38,13 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="test" />
 		</Compiler>
+		<Linker>
+			<Add option="-lcppunit" />
+			<Add library="libgui.a" />
+		</Linker>
 		<Unit filename="doxygen/doxyfile" />
 		<Unit filename="include/BaseWindow.h" />
 		<Unit filename="include/Coordinate.h" />

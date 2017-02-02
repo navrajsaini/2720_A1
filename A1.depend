@@ -4,11 +4,13 @@
 	<cppunit/extensions/TestFactoryRegistry.h>
 	<cppunit/ui/text/TestRunner.h>
 
-1485831755 source:/home/sair2720/Lab sht/A1/src/TestImage.cpp
+1485987040 source:/home/sair2720/Lab sht/A1/src/TestImage.cpp
 	"TestImage.h"
 	"Exceptions.h"
+	"Image.h"
+	"Widget.h"
 
-1485832082 /home/sair2720/Lab sht/A1/test/TestImage.h
+1485986696 /home/sair2720/Lab sht/A1/test/TestImage.h
 	<cppunit/extensions/HelperMacros.h>
 	"Image.h"
 
@@ -26,8 +28,13 @@
 
 1485827188 source:/home/sair2720/Lab sht/A1/src/TestExceptions.cpp
 
-1485830737 source:/home/sair2720/Lab sht/A1/src/TestTextbox.cpp
+1485987505 source:/home/sair2720/Lab sht/A1/src/TestTextbox.cpp
 	"TestTextbox.h"
+	"Widget.h"
+	"Textbox.h"
+	<iostream>
+	<fstream>
+	<cppunit/extensions/HelperMacros.h>
 
 1485831462 source:/home/sair2720/Lab sht/A1/src/TestWidget.cpp
 	"Widget.h"
@@ -35,22 +42,38 @@
 	"Textbox.h"
 	<iostream>
 
-1485827236 source:/home/sair2720/Lab sht/A1/src/TestWindow.cpp
+1486002306 source:/home/sair2720/Lab sht/A1/src/TestWindow.cpp
+	"TestWindow.h"
+	"Exceptions.h"
+	"Image.h"
+	"Widget.h"
+	"Textbox.h"
 
-1485834168 source:/home/sair2720/Lab sht/A1/src/TestCoordinate.cpp
+1485983160 source:/home/sair2720/Lab sht/A1/src/TestCoordinate.cpp
 	"TestCoordinate.h"
+	<fstream>
 
-1485834153 /home/sair2720/Lab sht/A1/test/TestCoordinate.h
+1485982937 /home/sair2720/Lab sht/A1/test/TestCoordinate.h
 	<cppunit/extensions/HelperMacros.h>
 	<iostream>
 	"Coordinate.h"
 
-1485830799 /home/sair2720/Lab sht/A1/test/TestTextbox.h
+1485985860 /home/sair2720/Lab sht/A1/test/TestTextbox.h
 	"Textbox.h"
 	<iostream>
+	<cppunit/extensions/HelperMacros.h>
 
 1485826250 /home/sair2720/Lab sht/A1/include/Textbox.h
 	<Widget.h>
 	<string>
 	"Exceptions.h"
+
+1485987748 /home/sair2720/Lab sht/A1/test/TestWindow.h
+	"Window.h"
+	<cppunit/extensions/HelperMacros.h>
+
+1485826250 /home/sair2720/Lab sht/A1/include/Window.h
+	"Widget.h"
+	"Coordinate.h"
+	<vector>
 
