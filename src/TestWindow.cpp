@@ -4,6 +4,7 @@
 #include "Widget.h"
 #include "Textbox.h"
 #include "BaseWindow.h"
+#include "Window.h"
 
 using namespace std;
 
@@ -27,5 +28,8 @@ void TestWindow::test1()
 
 void TestWindow::test2()
 {
-
+    Coordinate c(5, 5);
+    Image i(c, 100, 100);
+    BaseWindow w(0,0);
+    CPPUNIT_ASSERT_THROW(w.addWidget(&i), illegal_size_error);
 }
