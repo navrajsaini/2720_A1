@@ -25,7 +25,10 @@ void TestWindow::test1()
 {
     CPPUNIT_ASSERT_NO_THROW(BaseWindow(1024, 1024));
 }
-
+/**
+    test2: check if an error is thrown when a widget is added to a location that doesn't exist
+    test2: illegal_placement_error does not exist
+*/
 void TestWindow::test2()
 {
     Coordinate c(5, 5);
