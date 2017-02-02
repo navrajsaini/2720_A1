@@ -22,9 +22,9 @@ void TestImage::testImage()
 */
 void TestImage::test1()
 {
+    Coordinate c(1, 1);
+    Coordinate a(5, 5);
 
-    Coordinate a(3, 3);
-    Coordinate c(5, 5);
-    Image i(c, 4, 3);
-    CPPUNIT_ASSERT(i.getAt(a));
+    Image i(c, 1, 1);
+    CPPUNIT_ASSERT(i.getAt(c)=='I');
 }
